@@ -7,13 +7,13 @@ body {
   background-color: blue;
 }
 .grid-container {
-  margin: 70px;
+  margin: 50px;
   width: 1000px;
 
   display: grid;
   grid-row-gap: 30px;
   grid-column-gap: 40px;
-  grid-template-columns: 20% 20% 60%;
+  grid-template-columns: 20% 30% 50%;
   grid-template-areas:
     "header" "header" "header"
     "section" "section" "section"
